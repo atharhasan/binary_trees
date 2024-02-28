@@ -92,7 +92,7 @@ And func is a pointer to a function to call for each node. The value in the node
 If tree or func is NULL, do nothing
 ```
 ```
-9. Height
+9. Height (Athar did)
 Write a function that measures the height of a binary tree
 
 Prototype: size_t binary_tree_height(const binary_tree_t *tree);
