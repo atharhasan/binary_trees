@@ -39,10 +39,10 @@ int binary_tree_is_full(const binary_tree_t *tree)
 		return (0);
 
 	if (tree->left)
-		left_height = binary_tree_leaves(tree->left) + 1;
+		left_height = binary_tree_leaves(tree->left);
 
 	if (tree->right)
-		right_height = binary_tree_leaves(tree->right) + 1;
+		right_height = binary_tree_leaves(tree->right);
 
 	return ((left_height == right_height) ? 1 : 0);
 }
