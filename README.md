@@ -133,3 +133,18 @@ Where tree is a pointer to the root node of the tree to count the number of node
 If tree is NULL, the function must return 0
 A NULL pointer is not a node
 ```
+14. Balance factor (Mohammad did)
+Write a function that measures the balance factor of a binary tree
+
+Prototype: int binary_tree_balance(const binary_tree_t *tree);
+Where tree is a pointer to the root node of the tree to measure the balance factor
+If tree is NULL, return 0
+```
+```
+15. Is full (Mohammad did)
+Write a function that checks if a binary tree is full
+
+Prototype: int binary_tree_is_full(const binary_tree_t *tree);
+Where tree is a pointer to the root node of the tree to check
+If tree is NULL, your function must return 0
+```
