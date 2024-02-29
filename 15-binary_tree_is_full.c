@@ -44,5 +44,5 @@ int binary_tree_is_full(const binary_tree_t *tree)
 	if (tree->right)
 		right_height = binary_tree_leaves(tree->right);
 
-	return ((left_height == right_height) ? 1 : 0);
+	return ((left_height != right_height) ? 0 : ((left_height > right_height) ? left_height : right_height));
 }
