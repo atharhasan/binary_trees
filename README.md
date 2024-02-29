@@ -133,6 +133,7 @@ Where tree is a pointer to the root node of the tree to count the number of node
 If tree is NULL, the function must return 0
 A NULL pointer is not a node
 ```
+```
 14. Balance factor (Mohammad did)
 Write a function that measures the balance factor of a binary tree
 
